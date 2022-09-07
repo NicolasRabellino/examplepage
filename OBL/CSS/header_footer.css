@@ -1,0 +1,153 @@
+a {
+    text-decoration: none;
+    color: #ececec;
+}
+
+nav a:hover {
+    color: #979797
+}
+
+nav a {
+    font-weight: 700;
+    margin-right: 40px;
+}
+
+header {
+    top: 0%;
+    z-index: 1000;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    width: 98.5%;
+    min-height: 70px;
+    background-color: black;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin: 10px;
+}
+
+footer {
+    bottom: 0%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    min-height: 150px;
+    width: 100%;
+    background-color: black
+}
+
+.destacado {
+    display: flex;
+    position: absolute;
+    left: 40px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.destacado img {
+    border-radius: 3%;
+    border: 2px solid white;
+    height: 100px;
+    width: 150px;
+}
+
+.descripcioncasa p {
+    font-weight: 200;
+    padding-bottom: 5px;
+    padding-left: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.descripcioncasa {
+    padding-left: 10px;
+}
+
+.linea {
+    border-radius: 30%;
+    border-left: 2px solid rgb(255, 255, 255);
+    height: 90px;
+    left: 50%;
+}
+
+.links a {
+    margin-right: 40px;
+}
+
+.links a:hover {
+    color: #979797
+}
+
+.links {
+    padding-right: 10px;
+    position: absolute;
+    right: 10%;
+    font-size: 40px;
+}
+
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ol il {
+
+
+    font: small;
+}
+
+@media(max-width:790px) {
+    header {
+        flex-direction: column;
+    }
+
+    logo {
+        height: 30px;
+        width: 30px;
+    }
+
+    h2 {
+        font-size: medium;
+    }
+
+    nav {
+        padding: 10px 0px;
+        padding-right: 3px;
+        font-size: smaller
+    }
+
+   
+}
+
+@media(max-width:850px) {
+    .linea{
+        display: none;
+    }
+    .destacado{
+        display: none;
+    }
+
+    .links {
+        position: absolute;
+        left: 25%;
+        font-size: 50px;
+    }
+}
+
+div[class="destacado"] ul,
+p {
+    margin: 0;
+
+    padding-left: 10px;
+}

@@ -1,0 +1,101 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+}
+
+.contenedor {
+    position: relative;
+    border-radius: 10px;
+    margin: 40px;
+    margin-left: 140px;
+    background-color: rgb(20, 20, 20);
+    height: 1300px;
+    width: 80%;
+}
+
+
+.titulofrase {
+    font-size: 35px;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 30px;
+    right: 340px;
+    color: white;
+}
+
+.empresatexto1 {
+    letter-spacing: 2px;
+    position: absolute;
+    width: 500px;
+    color: white;
+    text-align: center;
+    top: 150px;
+    right: 300px;
+}
+
+.empresatexto2 {
+    letter-spacing: 2px;
+    position: absolute;
+    width: 500px;
+    color: white;
+    text-align: center;
+    top: 340px;
+    right: 300px;
+}
+
+hr{
+    width: 700px;
+    position: absolute;
+    top: 45%;
+    left:200px;
+}
+
+.empleados{
+    display: flex;
+
+    width: 1000px;
+    height: 300px;
+    position: absolute;
+    top: 49%;
+    right: 35px;
+}
+
+.empleado{
+    margin: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    position:relative;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+}
+
+.fotoempleado{
+    position: absolute;
+    top:15px;
+    left:20px;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+}
+
+.empleados2{
+    display: flex;
+
+    width: 1000px;
+    height: 300px;
+    position: absolute;
+    top: 74%;
+    right: 35px;
+}
+
+h3{
+    position: absolute;
+    top:65%;
+    left:13px;
+}
+
+h4{
+    position: absolute;
+    top:77%;
+    left:60px;
+}

@@ -1,0 +1,157 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+}
+
+.catalogo {
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: 1850px;
+}
+
+.busqueda {
+    position: relative;
+    position: absolute;
+
+    left: 20px;
+    width: 250px;
+    height: 600px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.search {
+    top: 15px;
+    left: 12px;
+    border: 2px solid whitesmoke;
+    background-color: #3c3d3f;
+    position: relative;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 220px;
+    border-radius: 5px;
+}
+
+.search input {
+    margin-left: 10px;
+}
+
+.search i {
+    padding-top: 10px;
+    padding-left: 3px;
+    font-size: 20px;
+    color: white;
+}
+
+.precios {
+    position: absolute;
+    background-color: #3c3d3f;
+    border: 2px solid whitesmoke;
+    top: 80px;
+    left: 12px;
+    height: 235px;
+    width: 220px;
+    border-radius: 5px;
+
+}
+
+.precios h2 {
+    letter-spacing: 2px;
+    color: white;
+    font-family: monospace;
+    margin-left: 20px;
+}
+
+.precios input {
+    margin-left: 20px;
+}
+
+.precios i {
+    margin-left: 5px;
+    color: white
+}
+
+.comodidades {
+    position: absolute;
+    background-color: #3c3d3f;
+    border: 2px solid whitesmoke;
+    top: 335px;
+    left: 12px;
+    height: 235px;
+    width: 220px;
+    border-radius: 5px;
+}
+
+.comodidades input{
+    margin-left: 20px;
+}
+.comodidades h2 {
+    letter-spacing: 2px;
+    color: white;
+    font-family: monospace;
+    margin-left: 20px;
+}
+
+.opciones{
+    letter-spacing: 1px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.opciones input{
+    margin-top: 15px;
+}
+
+.muestras{
+    margin-top: 25px;
+    margin-left: 400px;
+}
+
+.casa{
+    position: relative;
+    border-radius: 6px;
+    display: fixed;
+    margin-top: 20px;
+    width: 800px;
+    height: 200px;
+    background-color: rgb(20,20, 20);
+    overflow: hidden;
+}
+
+.casa img{
+    margin: 10px;
+    width: 300px;
+    height: 180px;
+    border-radius: 3px;
+
+}
+
+.casa ol{
+    left: 330px;
+    top:55px;
+    position: absolute;
+    color:rgb(255, 255, 255);
+    float: right;
+    padding-right: 300px;
+    font-weight:10px;
+    width: 400px;
+    height: 100px;
+    float: right;
+}
+
+p  {
+    
+    font:bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(255, 255, 255) !important;
+    float: right !important;    
+    padding-right: 374px !important;
+    margin-top: 20px;
+    padding-left: 0;
+}

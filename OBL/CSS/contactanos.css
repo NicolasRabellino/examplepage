@@ -1,0 +1,77 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+}
+
+.formulario{
+    position: relative;
+    border-radius: 10px;
+    margin: 40px;
+    margin-left: 150px;
+    background-color: rgb(20,20, 20);
+    height: 70%;
+    width: 80%;
+}
+
+.izquierda{
+
+    margin-left: 250px;
+    margin-top:65px
+}
+
+.derecha{
+    position: absolute;
+    left:500px;
+    top:160px;
+}
+
+.asunto{
+    position: absolute;
+    left:500px;
+    top: 65px;
+}
+
+#textarea{
+    width: 300px;
+    height: 100px;
+}
+
+.formulario input{
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 5px;
+    text-indent: 10px;
+    width: 180px;
+    height: 30px;
+    border: 0;
+    color: white;
+    outline: 2px solid white;
+    background-color: #3c3d3f;
+}
+
+.submit{
+    color: white;
+    text-indent: 0px;
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    left: 500px;
+    bottom:123px;
+    text-indent: 0px !important;
+}
+
+
+#textarea{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 10px;
+    text-indent: 10px;
+    border-radius: 5px;
+    outline: 2px solid white;
+    color: white;
+    border: 0; 
+    background-color: #3c3d3f;
+}
+
+::placeholder{
+    color: rgb(168, 168, 168);
+    opacity: 0.6;
+}
