@@ -1,2 +1,2 @@
 # Example page
-real estate company
+for a real estate company, css animations
